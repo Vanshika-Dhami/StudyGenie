@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+
+# Python
+.venv/
+**/.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated media / temp
+tmp/
+**/tmp/
+downloads/
+audio/
+*.mp3
+*.wav
+*.m4a
+*.webm
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build/cache
+dist/
+build/
+.cache/
+
+.env.*
+!.env.example
+*.log

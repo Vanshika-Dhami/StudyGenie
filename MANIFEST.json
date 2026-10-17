@@ -1,0 +1,607 @@
+{
+  "source": "project23.zip, reconciled with current D:/StudyGenie (Notes replaced; current lockfiles preserved)",
+  "sourceSha256": "43e5ef9566286b65a33aa931f6c3ab246a588d32444f28c9a34b345a18b3c554",
+  "fileCount": 150,
+  "files": {
+    ".gitignore": {
+      "bytes": 427,
+      "sha256": "49cc44db2e6b00fa3b6bf6d8deef152c77fde1baf36a9c568075edc527986d23"
+    },
+    "CHANGELOG.md": {
+      "bytes": 3458,
+      "sha256": "bc3bc1986295861217859eaf0502962e6b7b93bf9f7d39e7b0685d241da6a4c3"
+    },
+    "frontend/Genie final/chat.html": {
+      "bytes": 2405,
+      "sha256": "f16030110926be93c37da796fa16c988313ce3a60dee2d674ba7c65b1c282a7f"
+    },
+    "frontend/Genie final/css/print.css": {
+      "bytes": 4688,
+      "sha256": "7fe6e9e480f40048de90790bfe44f1e1013ce5af7e07800852233ee6ef6a4848"
+    },
+    "frontend/Genie final/css/style.css": {
+      "bytes": 49787,
+      "sha256": "1a1a07f90b14cdbb40460d241a4bacaae83546de8e517a90091684bb3727e977"
+    },
+    "frontend/Genie final/css/workspace.css": {
+      "bytes": 14027,
+      "sha256": "70a10a1ec8226f1be0c8ceebd3c99c1989492c3bf299e8091c2556852abad376"
+    },
+    "frontend/Genie final/dashboard.html": {
+      "bytes": 8021,
+      "sha256": "61dcbf45ce92ef6badf8a638b7644e239dd8eeb187f7a7c3272e47989eb688cb"
+    },
+    "frontend/Genie final/flashcards.html": {
+      "bytes": 2262,
+      "sha256": "1b638d2a01921483b431a42b3b64a84df407edabbee753389745b2f5304edfcb"
+    },
+    "frontend/Genie final/index.html": {
+      "bytes": 12172,
+      "sha256": "c8ebb422cd5d7612ed4b5a9b32ef1001a35a93ac0b641256fa55c68126aa2ad7"
+    },
+    "frontend/Genie final/js/api.js": {
+      "bytes": 3289,
+      "sha256": "04410a0b66c3c0631a3c7be7892cfef528f1add5e8bb130c71b00917894745a8"
+    },
+    "frontend/Genie final/js/auth.js": {
+      "bytes": 4317,
+      "sha256": "f6853ab34d9946884a3db641f42ca1cd4d5a889e8e02025a43d219b796ac5e1c"
+    },
+    "frontend/Genie final/js/dashboard.js": {
+      "bytes": 9136,
+      "sha256": "e3c38715ea0752e143bb9b38608cbee7b616fd2683ae5bb5f7d35f1ee1079d03"
+    },
+    "frontend/Genie final/js/feature.js": {
+      "bytes": 13714,
+      "sha256": "c5134d9913d68269d009cb600ffebb739c8113417dc94e7189d1af15adaa71cd"
+    },
+    "frontend/Genie final/js/guard.js": {
+      "bytes": 259,
+      "sha256": "92a7098ebacaf78210cb0b2b1cac5b9e4e0fe722edaa5cbbbec2afd7ece04b7d"
+    },
+    "frontend/Genie final/js/main.js": {
+      "bytes": 2292,
+      "sha256": "72bdc53e16059f018548c745f7a056c90a2dcb3752658bc760f2cb90d6e3fb23"
+    },
+    "frontend/Genie final/js/print.js": {
+      "bytes": 2839,
+      "sha256": "6b456ee7130fd135416ff8521469a4d409d6951e82e85540aec5a12832c47407"
+    },
+    "frontend/Genie final/js/profile.js": {
+      "bytes": 779,
+      "sha256": "352bbc65357b8c398f6bd2f933e4304c43ba1f6e857096e5c183c4eb6a0534b7"
+    },
+    "frontend/Genie final/js/settings.js": {
+      "bytes": 3363,
+      "sha256": "3ace4125b9c7fdd9c88a47c005a4aa83872a34a0903cdc912360c6ed60d8728f"
+    },
+    "frontend/Genie final/js/theme.js": {
+      "bytes": 1454,
+      "sha256": "6d66f0a0af1611c53db1678e282b72a65e3c21848501bb880bd67fa2236cc32e"
+    },
+    "frontend/Genie final/js/workspace.js": {
+      "bytes": 4065,
+      "sha256": "ab95fa7d1daad08d5080a97774bce52714c0e680b42dd4e24f8c15a2bada113e"
+    },
+    "frontend/Genie final/login.html": {
+      "bytes": 2816,
+      "sha256": "dea639cc60b7f2610fa137a6401b4bb9d2328698989c5d6a8230e66113a971fa"
+    },
+    "frontend/Genie final/mindmap.html": {
+      "bytes": 2456,
+      "sha256": "3e614b4d0f1617b01a212843b78443adcadd67039473c84c1d98827024ccb116"
+    },
+    "frontend/Genie final/notes.html": {
+      "bytes": 2442,
+      "sha256": "5d53cf9a22044db36c081a16183f189fca38543301ab97f8b780fdb57a7ed0e6"
+    },
+    "frontend/Genie final/profile.html": {
+      "bytes": 2863,
+      "sha256": "8c53d2009190a4f042a1751826a8233f6b7dcca54e0ef8eab6c27489d232d875"
+    },
+    "frontend/Genie final/questions.html": {
+      "bytes": 2297,
+      "sha256": "a7a731a36dbff70968442c5023e6d17907d779b99c35262166e696a3ef1fa562"
+    },
+    "frontend/Genie final/quiz.html": {
+      "bytes": 2232,
+      "sha256": "f3dc3f1691a202b0ccfece69fdb211a65e4d339e3253cc23bc21d00ea5614c1b"
+    },
+    "frontend/Genie final/README-SECURITY.md": {
+      "bytes": 275,
+      "sha256": "a301705542c46b2f982dbbddd4253801f61a6c06fa02b0a2246153facfba9991"
+    },
+    "frontend/Genie final/README.md": {
+      "bytes": 187,
+      "sha256": "98381e063e295ac5104b1ce85050ac7e3d48e100ceb460bd05fcf32a00dc1f7f"
+    },
+    "frontend/Genie final/revision.html": {
+      "bytes": 2276,
+      "sha256": "62908bc34dc571a8925dcca10a7ae2ca8db1335941ea7feef70c74bd90616498"
+    },
+    "frontend/Genie final/settings.html": {
+      "bytes": 3371,
+      "sha256": "2c034cca4a11603430ae2f16fe5a873b603fcde095cc9e4ec9fb4788225b4f40"
+    },
+    "frontend/Genie final/signup.html": {
+      "bytes": 1669,
+      "sha256": "dcfa58920060513a6453bb884b8c28bfdd0febebbafa435382aa8584ed5d8342"
+    },
+    "frontend/Genie final/summary.html": {
+      "bytes": 2452,
+      "sha256": "7a180102667f5a5649da49469db0802146f279e64ed97971a8ad262167a9fa1b"
+    },
+    "frontend/Genie final/THEME_PALETTE.txt": {
+      "bytes": 431,
+      "sha256": "ac28e6fe9b368c4d819567da392f9d5dc5df261bf23b34d5f4eba59f46ec1928"
+    },
+    "frontend/Genie final/vendor/DOMPURIFY-LICENSE": {
+      "bytes": 27729,
+      "sha256": "1b02e03c3fb4f87d476c128f0eb9def1f5a1709d28b180465228bd41574623b7"
+    },
+    "frontend/Genie final/vendor/fonts/DMSANS-LICENSE.txt": {
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    "frontend/Genie final/vendor/fonts/font-1.ttf": {
+      "bytes": 48280,
+      "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+    },
+    "frontend/Genie final/vendor/fonts/font-2.ttf": {
+      "bytes": 48308,
+      "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+    },
+    "frontend/Genie final/vendor/fonts/font-3.ttf": {
+      "bytes": 48280,
+      "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a"
+    },
+    "frontend/Genie final/vendor/fonts/font-4.ttf": {
+      "bytes": 48200,
+      "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+    },
+    "frontend/Genie final/vendor/fonts/font-5.ttf": {
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a"
+    },
+    "frontend/Genie final/vendor/fonts/font-6.ttf": {
+      "bytes": 95060,
+      "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d"
+    },
+    "frontend/Genie final/vendor/fonts/font-7.ttf": {
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce"
+    },
+    "frontend/Genie final/vendor/fonts/font-8.ttf": {
+      "bytes": 94928,
+      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
+    },
+    "frontend/Genie final/vendor/fonts/font-9.ttf": {
+      "bytes": 95688,
+      "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950"
+    },
+    "frontend/Genie final/vendor/fonts/MANROPE-LICENSE.txt": {
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    "frontend/Genie final/vendor/fonts/NOTO-DEVANAGARI-LICENSE.txt": {
+      "bytes": 4386,
+      "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+    },
+    "frontend/Genie final/vendor/fonts/NOTO-SYMBOLS-LICENSE.txt": {
+      "bytes": 4383,
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    },
+    "frontend/Genie final/vendor/fonts/unicode-1.ttf": {
+      "bytes": 219460,
+      "sha256": "526a1b34db43de480d51a8a923c474b848489005d61b6ef45b3a850f7e141ff3"
+    },
+    "frontend/Genie final/vendor/fonts/unicode-2.ttf": {
+      "bytes": 220032,
+      "sha256": "3b752492302c04610e0f3efe281256443778f5d4668c25df6d28ffd8dda57183"
+    },
+    "frontend/Genie final/vendor/fonts/unicode-3.ttf": {
+      "bytes": 1227692,
+      "sha256": "f56f4b90e7653ee69d88593c337bd9bb3cad6e4c0d1b4ef55bf0424ec8cc7c95"
+    },
+    "frontend/Genie final/vendor/MARKED-LICENSE.md": {
+      "bytes": 2942,
+      "sha256": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c"
+    },
+    "frontend/Genie final/vendor/marked.umd.js": {
+      "bytes": 42540,
+      "sha256": "0db7abc826b5ac76f6ed11951ae34074ba50438ce6ea8d52889203779e5cbbad"
+    },
+    "frontend/Genie final/vendor/MATHJAX-LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff": {
+      "bytes": 40808,
+      "sha256": "3de784d07b9fa8f104c10928a878ee879cf3305cae5195cba663c9c2bb0195eb"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff": {
+      "bytes": 9908,
+      "sha256": "af04542b29eaac04550a140c5f1760a649783989426f2540855bf4157819367d"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff": {
+      "bytes": 9600,
+      "sha256": "26683bf201fb258a2237d9754616de9d4ecf4cc1cd39dd1902476df7d75f1d16"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff": {
+      "bytes": 22340,
+      "sha256": "721921bab0d001ebff0206c24cb5de6ca136467bf1843a7aa32030ba061d1e92"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff": {
+      "bytes": 21480,
+      "sha256": "870673df72e70f87c91a5a317d558c2c3b54392264ad79bbadc6d424ae8765fe"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff": {
+      "bytes": 34464,
+      "sha256": "88b98cad3688915e50da55553ff6ad185e0dce134b47f176e91b100f8a9b175c"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff": {
+      "bytes": 20832,
+      "sha256": "355254db9ca10a09a3b5f0929d74eb4670f44fbe864c07526a06213e0a0caf6c"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff": {
+      "bytes": 34160,
+      "sha256": "1cb1c39ea642f26a4dfed230b4aea1c3c218689421f6e9c0a7c1811693c4fa07"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff": {
+      "bytes": 19776,
+      "sha256": "8ea8dbb1b02e6f730f55b4cb5d413b785b9f5c39807d0a0fa7da206a0824a457"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff": {
+      "bytes": 19360,
+      "sha256": "a009bea404f7a500ded48f8b9ad9cf16e12504b3195dd9e25975289b8256b0f0"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Math-Regular.woff": {
+      "bytes": 19288,
+      "sha256": "c01d3321e89b403c4b811aa153c4e618eda3421f92d8a072a02c8d190782a191"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff": {
+      "bytes": 15944,
+      "sha256": "32792104b5ef69eded905b6d1598ed05d8087684d38e7a94d52e3c38ba16f47e"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff": {
+      "bytes": 14628,
+      "sha256": "fc6ddf5df402b263cfb158aed8e89972542c34b719cd87b1db30461985f7bd5b"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff": {
+      "bytes": 12660,
+      "sha256": "b418136e3b384baaadecb70bd3c48a8da9825210130b2897db808c44efc883cb"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff": {
+      "bytes": 11852,
+      "sha256": "af96f67d7accf5fd2a4a682d0b9f8b339f8ea6fe34c310c1694c8ba7f6ddc96f"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff": {
+      "bytes": 5792,
+      "sha256": "c49810b53ecc0d87d8028762c518924197dd9d3f905b08f99ea241301085b9cb"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff": {
+      "bytes": 5464,
+      "sha256": "30e889b58cbc51adfbb038ab1a96dc4025aa3542a3cff7712fc55ece510675e2"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff": {
+      "bytes": 3244,
+      "sha256": "5cda41563a095bd70c78e2dda13d0f8cb922c71c90fffd0a0044c65173a66e83"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff": {
+      "bytes": 5148,
+      "sha256": "3bc6ecaae7ecf6f8d7f8ea07bddbaca8601e2cb6e89d6aef58e78d9f6d8a398f"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff": {
+      "bytes": 17604,
+      "sha256": "c56da8d69f1a0208b8e0703656c3264b6dd748bd452524c82b0385b60f6a68c1"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff": {
+      "bytes": 1116,
+      "sha256": "36e0d72d8a7afc696a3e7a5c7369807634640de9b02257bca447bdf126221a27"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff": {
+      "bytes": 1136,
+      "sha256": "72bc573386dd1d48c5bbd286302ca9e3400c5eb0f298e7cfbf945b9d08fc688f"
+    },
+    "frontend/Genie final/vendor/output/chtml/fonts/woff-v2/MathJax_Zero.woff": {
+      "bytes": 1368,
+      "sha256": "481e39042508ae313a60618af1e37146ab93e9324c98e4c78b8f17fe55d41e0b"
+    },
+    "frontend/Genie final/vendor/purify.min.js": {
+      "bytes": 22305,
+      "sha256": "89e1fa7647cb495370d3a997ace4387f5d15d9f4c5af12352c53daa400956287"
+    },
+    "frontend/Genie final/vendor/tex-mml-chtml.js": {
+      "bytes": 1173007,
+      "sha256": "300480069078b5892d2363a2b65e2dfbbf30fe5c80f83edbfecf4610fd093862"
+    },
+    "implementation_plan.md": {
+      "bytes": 125,
+      "sha256": "3691366fc52fc6e2c43838bcf869c558b09fb83ac587c748143baa103f9b34f0"
+    },
+    "IMPORTANT_FIXES.md": {
+      "bytes": 138,
+      "sha256": "bfb5ba7481527fbb9f2b451222c69867f0425ed12e67ca10ef1acc31a6490f37"
+    },
+    "package.json": {
+      "bytes": 590,
+      "sha256": "cc8e5f0bc1d3e07572d2e26741ae07f1cf5ca68ef6b00ded79311752c5a1de5f"
+    },
+    "PDF_EXPORT_CHECKLIST.md": {
+      "bytes": 2537,
+      "sha256": "fe6718ba56785580a935d9699a3a4dc021edbe86c320f8cde3fae58923b1257e"
+    },
+    "PRESENTATION_CHECKLIST.md": {
+      "bytes": 2278,
+      "sha256": "fd2b752f975fe4aaf6a2b78c18fa400476227a1201b18eefedb900b87833d08f"
+    },
+    "README.md": {
+      "bytes": 1104,
+      "sha256": "4bcd946e02c25e39921d89e9bd471d415163ec89ef7a8c1aac0336fd6676262e"
+    },
+    "scripts/check.cjs": {
+      "bytes": 1443,
+      "sha256": "b7b16e3ef105dcfc593c67e2e0095a81f3514696de6768aaf94e0f378f275c67"
+    },
+    "scripts/serve-frontend.cjs": {
+      "bytes": 1477,
+      "sha256": "dec8690dc66dca8090229a2b0ca022e1b67bdcb0551855f81985bf17bd6253c0"
+    },
+    "SETUP.md": {
+      "bytes": 5661,
+      "sha256": "f561a6c569daabc791f5234ea57c4452a421d1ecae2ecf2c7cba1dcda439e935"
+    },
+    "StudyGenie_Backend/AI/gemini.js": {
+      "bytes": 2486,
+      "sha256": "9a729d6983bea465c0c7aabd266ebd09be2439bec3034a35bcccf7417ae4e257"
+    },
+    "StudyGenie_Backend/AI/generators/chatGenerator.js": {
+      "bytes": 1294,
+      "sha256": "b6d23d10a3ecabfdc4fa1860e46cfd2414c0b836e418cfce0d3e2b586213c658"
+    },
+    "StudyGenie_Backend/AI/generators/flashcardGenerator.js": {
+      "bytes": 974,
+      "sha256": "c829bab0459c9b82071a2a62dd78e299322ba77cf52319abe655a15410bd0999"
+    },
+    "StudyGenie_Backend/AI/generators/mergeNotesGenerator.js": {
+      "bytes": 631,
+      "sha256": "0b52ffe98f550f0b7a0c37d9d60e9a476253e6822503b0f74b1478386f61bb28"
+    },
+    "StudyGenie_Backend/AI/generators/mindMapGenerator.js": {
+      "bytes": 1452,
+      "sha256": "2a548879e501b6fed73caabbdc6047f3f40143db83e1db02f317dd931f906caf"
+    },
+    "StudyGenie_Backend/AI/generators/notesGenerator.js": {
+      "bytes": 3148,
+      "sha256": "0d8413f5dc943bf0ddf94a06c04c9be7383b7ae6d4c47b2774aae86162b13461"
+    },
+    "StudyGenie_Backend/AI/generators/questionsGenerator.js": {
+      "bytes": 1000,
+      "sha256": "d3a9c85f4883f6050f89b9e0bdab3c801543640e19414dd05f1ead84a196749f"
+    },
+    "StudyGenie_Backend/AI/generators/quizGenerator.js": {
+      "bytes": 1613,
+      "sha256": "7bede393a2d56dcafbdea50a4fc5be2a767232e54f0040d194705e251e46e1e7"
+    },
+    "StudyGenie_Backend/AI/generators/sectionMergeGenerator.js": {
+      "bytes": 582,
+      "sha256": "379bc25861da31908798bf70cb10d31c1274ea8e49fb4442aab7acf688187152"
+    },
+    "StudyGenie_Backend/AI/generators/smartRevisionGenerator.js": {
+      "bytes": 2523,
+      "sha256": "ce5c75e7ed1796d58f6ad7a47ae76dbfa6dd89a23ef9421dc349198db6891663"
+    },
+    "StudyGenie_Backend/AI/generators/summaryGenerator.js": {
+      "bytes": 1012,
+      "sha256": "6573e6a4549f25ef809846f0dc629279d68769ecabd6342f048d1b7b1409fc2d"
+    },
+    "StudyGenie_Backend/AI/generators/weakTopicsGenerator.js": {
+      "bytes": 2438,
+      "sha256": "5b421501a0d8720ccf924b29633e985139a9d7bb9893aad826350f119507b60f"
+    },
+    "StudyGenie_Backend/AI/prompts/chatPrompt.js": {
+      "bytes": 1064,
+      "sha256": "2f66267283c97c997d6d1f67c4008df9a0dba842b31d6f9e646249f6b10f1d94"
+    },
+    "StudyGenie_Backend/AI/prompts/flashcardPrompt.js": {
+      "bytes": 1869,
+      "sha256": "ae3efa27a3536eeb73ecf5445b30ceb31c08270d4358c2a56bdb8f524c9e7227"
+    },
+    "StudyGenie_Backend/AI/prompts/mergeNotesPrompt.js": {
+      "bytes": 4172,
+      "sha256": "52c11ced0ab424188867b98f83040e94550950582df51fa9e2106fe97e150b8b"
+    },
+    "StudyGenie_Backend/AI/prompts/mindMapPrompt.js": {
+      "bytes": 2225,
+      "sha256": "94940f3c223ec54897d49a2a1ed25e764521c235f93eb63225cd2a00bc00eba8"
+    },
+    "StudyGenie_Backend/AI/prompts/notesPrompt.js": {
+      "bytes": 7319,
+      "sha256": "7212b526216cbe3b2996f4fc6fde827ef586b809ac6ce31f07a4fdbd539d9239"
+    },
+    "StudyGenie_Backend/AI/prompts/questionsPrompt.js": {
+      "bytes": 3038,
+      "sha256": "bdc8d0983804abd5513ede7ecea239f201a515e4f701b958d47f89336aa47d39"
+    },
+    "StudyGenie_Backend/AI/prompts/quizPrompt.js": {
+      "bytes": 2653,
+      "sha256": "b2770dae570a78920cb4af68620b244a7625e43e58a3c02cc13936e0e02dd93e"
+    },
+    "StudyGenie_Backend/AI/prompts/sectionMergePrompt.js": {
+      "bytes": 1831,
+      "sha256": "11661a3c36485b840aa063df702ed05874b19e2fe56f94fd3ee9cc617d856035"
+    },
+    "StudyGenie_Backend/AI/prompts/smartRevisionPrompt.js": {
+      "bytes": 2238,
+      "sha256": "b3efd502543620383f4536a30c5967349582a4e7951d32eb39886c0eb94982d5"
+    },
+    "StudyGenie_Backend/AI/prompts/summaryPrompt.js": {
+      "bytes": 2436,
+      "sha256": "209c3947c8602a45702eac629b2d03f61033f517ad82d54cf85957b93594f759"
+    },
+    "StudyGenie_Backend/AI/prompts/weakTopicsPrompt.js": {
+      "bytes": 2020,
+      "sha256": "79ac2ca877a64950011bed0bcda733622b75b9f1d1d1033e3257e80869731c3a"
+    },
+    "StudyGenie_Backend/AI/rules/generalRules.js": {
+      "bytes": 3459,
+      "sha256": "e982e064824a9574c79b4bc2f7f8096f7b06569e52b53067086c3191e3623d3c"
+    },
+    "StudyGenie_Backend/AI/rules/languageRules.js": {
+      "bytes": 3475,
+      "sha256": "ceebf4771e05b57f5568c913375a32c89715f6b06b51b71d4c4f82b37d7d696b"
+    },
+    "StudyGenie_Backend/AI/utils/batchChunks.js": {
+      "bytes": 404,
+      "sha256": "005cbfb64128d0662c4daca5d4a491c5416ca75d0526329cf03a3eba483cdbc7"
+    },
+    "StudyGenie_Backend/AI/utils/chunkTranscript.js": {
+      "bytes": 1345,
+      "sha256": "9c1cce8d7de93539f2012499c054611bebc3f6b53fda7485e2f7973a68115457"
+    },
+    "StudyGenie_Backend/AI/utils/parseJsonResponse.js": {
+      "bytes": 1626,
+      "sha256": "5233b854c9bfd5fcd4887af2ca6cd0e8eb837dda5ea06d2b702ff35acda1ec84"
+    },
+    "StudyGenie_Backend/backend/.env.example": {
+      "bytes": 789,
+      "sha256": "765e40f27fe09c1ea5374d3f64edfdedeaef2340f8070ba9d40dc7594d7b9770"
+    },
+    "StudyGenie_Backend/backend/.gitignore": {
+      "bytes": 346,
+      "sha256": "0fe3d325f65c938c1eebb645fb4644d373d0afda7b0bc7e4b1cc66d7a82d7718"
+    },
+    "StudyGenie_Backend/backend/package-lock.json": {
+      "bytes": 54532,
+      "sha256": "97df05ecaa5362a18b40247bef1d9c3cb467ce8e7262b3611c87289e66b5afe5"
+    },
+    "StudyGenie_Backend/backend/package.json": {
+      "bytes": 547,
+      "sha256": "8fd8ccbe836ce517f09c46b83b898ebce932cb702fcf5f58a38ae3ed4badb71d"
+    },
+    "StudyGenie_Backend/backend/python/requirements.txt": {
+      "bytes": 124,
+      "sha256": "546c57a3d4f337f3d1cdc69ff679f5dd169e3fd9255025f156a958caf7c08a12"
+    },
+    "StudyGenie_Backend/backend/python/transcribe_youtube.py": {
+      "bytes": 4919,
+      "sha256": "5e426c7db48c658bb23bc1aaaa40aa712ac0125cc425b2a8f4cad0760c1923a9"
+    },
+    "StudyGenie_Backend/backend/scripts/list-models.js": {
+      "bytes": 885,
+      "sha256": "2ae57f4874e56d632405ba17bc81ec89f64f4db73c3407d260f5f126445f2786"
+    },
+    "StudyGenie_Backend/backend/sql/002_feature_persistence.sql": {
+      "bytes": 4973,
+      "sha256": "0c365b0b15b48a94e05b82ac7606acf3a2f3b5f1565d2ca693705ab0f86b0529"
+    },
+    "StudyGenie_Backend/backend/sql/003_source_reuse.sql": {
+      "bytes": 1245,
+      "sha256": "2aea9287fcd3fa4b8b9cfebe14a88c806e929debf304eecba7fe6bbeb06866da"
+    },
+    "StudyGenie_Backend/backend/sql/schema.sql": {
+      "bytes": 4757,
+      "sha256": "1760b023fde28c4a9157a582e729bbcbf2a43b4dfe0480528c8999d6fbec39ab"
+    },
+    "StudyGenie_Backend/backend/src/auth.js": {
+      "bytes": 569,
+      "sha256": "45941175fe66c1c456fe5c48caf56d6d1d5bbfc7a64718f43ac60ad768480674"
+    },
+    "StudyGenie_Backend/backend/src/config.js": {
+      "bytes": 1993,
+      "sha256": "a7eec9b65f34cf3ebb1d2e10661c7de0b280ed857c3f94e93fee98d860ac8d92"
+    },
+    "StudyGenie_Backend/backend/src/routes/me.js": {
+      "bytes": 964,
+      "sha256": "7566037768e5010b9e13ba81a3ebb05e4415d444b036d06ea821be949447aa10"
+    },
+    "StudyGenie_Backend/backend/src/routes/progress.js": {
+      "bytes": 1579,
+      "sha256": "f00bae4c303b7fa9c97b8a51b0abd793efa901d6e2fdac1134d22f6bbfae74ae"
+    },
+    "StudyGenie_Backend/backend/src/routes/quizzes.js": {
+      "bytes": 1922,
+      "sha256": "e83b8df154b9e0e3a2114cd5c96bb3890c55ad71f6e6bbe599c0d664d4a3cb4a"
+    },
+    "StudyGenie_Backend/backend/src/routes/sources.js": {
+      "bytes": 13232,
+      "sha256": "c28cd8e21c81318c9308ff07d8816897e4e06f9b8761c726ce37e3074ca0ae09"
+    },
+    "StudyGenie_Backend/backend/src/server.js": {
+      "bytes": 2406,
+      "sha256": "57a82e9ba7b5099e824e98c9f9c18a89a32e4491d37243226437248c847dd332"
+    },
+    "StudyGenie_Backend/backend/src/services/aiAdapter.js": {
+      "bytes": 1844,
+      "sha256": "c59aad3509caa56e78cda199da15edc32d05c3b94bdebeb1a79485d2024a430f"
+    },
+    "StudyGenie_Backend/backend/src/services/apiError.js": {
+      "bytes": 1608,
+      "sha256": "2449bd04e40250cc81ebb119c1693ecaa84c1a09023206d2c13a062ac53dbf7e"
+    },
+    "StudyGenie_Backend/backend/src/services/featureStore.js": {
+      "bytes": 2973,
+      "sha256": "ce3ac9550ccc98db290168d10ec8d9bf273e424b7d42ec996f150309790cc9db"
+    },
+    "StudyGenie_Backend/backend/src/services/pythonWorker.js": {
+      "bytes": 3117,
+      "sha256": "092880e3030c9c4fea8207fb2283ac99f8295270664e762ea1c43018ea5020a9"
+    },
+    "StudyGenie_Backend/backend/src/services/retrieval.js": {
+      "bytes": 1553,
+      "sha256": "8a89c514f1e945287127e88fbbe8572975674da0c6d03db098a3d4388ec1846e"
+    },
+    "StudyGenie_Backend/backend/src/services/sourceService.js": {
+      "bytes": 4980,
+      "sha256": "6a1ee5644cba6f385dc7d5c8fa740d23fea090bd6f752963b1139ddf3a531089"
+    },
+    "StudyGenie_Backend/backend/src/services/transcriptCleaner.js": {
+      "bytes": 5748,
+      "sha256": "bd86cbe305016ccaaa7cd7abb0321eb6df3c4d0519da903652bf85d5697639ac"
+    },
+    "StudyGenie_Backend/backend/src/supabase.js": {
+      "bytes": 257,
+      "sha256": "884f1bd607b3afab6c6343949b9205568b4b9cc170b68498359f8b1af2089a46"
+    },
+    "StudyGenie_Backend/package-lock.json": {
+      "bytes": 18157,
+      "sha256": "cfd85d7b19fa83717a27aa2919ce34bd08b0e57fcb45840a1863388bf4e3a29f"
+    },
+    "StudyGenie_Backend/package.json": {
+      "bytes": 219,
+      "sha256": "d39649c2c822a9fa049627950343f041298989a2854e62119074af63a16ce174"
+    },
+    "StudyGenie_Backend/README.md": {
+      "bytes": 235,
+      "sha256": "85fc5bfce7ccc90dbccca206565a1fa63c296c7074c38ca4918c9b1e0f4305e1"
+    },
+    "TEST_REPORT.md": {
+      "bytes": 1989,
+      "sha256": "24e02c233654dbcf427d4f7122171aa36a0fdad4b81a0c4c1fb398dbdf6e8628"
+    },
+    "tests/browser-smoke.cjs": {
+      "bytes": 12085,
+      "sha256": "ce8caba0307381d694412630e535086fe282c9919092a7d06bc048e4776af0c2"
+    },
+    "tests/fixtures/operators-saved.json": {
+      "bytes": 15455,
+      "sha256": "43196b5629ff4fc0028e65a19a05da4ba1d862c9a0eee00887ce540fd9b775ed"
+    },
+    "tests/frontend-startup.test.mjs": {
+      "bytes": 6942,
+      "sha256": "e7b68d5ae84d5819b998df100aa02307c10882636e30ef65b576c00f67931eb2"
+    },
+    "tests/print-smoke.cjs": {
+      "bytes": 12172,
+      "sha256": "4ec11c981ce0caa84c5bb60a261d4e96394571a3afa5ffa172595fc8bbb18e5e"
+    },
+    "tests/regression.test.mjs": {
+      "bytes": 21979,
+      "sha256": "7e61d0fff74965beb866d1bd970563570cad67dd5a863b6b9f456f90388948eb"
+    },
+    "tests/test_worker.py": {
+      "bytes": 2908,
+      "sha256": "402c2375c2ec617b60c0f6ce7ef4f8e11c4020517d52982bb0955010a9ffc333"
+    }
+  }
+}

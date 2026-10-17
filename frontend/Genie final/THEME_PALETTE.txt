@@ -1,0 +1,25 @@
+StudyGenie Final Theme
+
+LIGHT
+Background: #F7F5F0
+Surface: #FFFDF8
+Text: #171717
+Secondary: #625E57
+Muted: #8A857D
+Border: #DED9CF
+Champagne Gold: #E8B86A
+Warm Gold: #C98A32
+
+DARK
+Midnight Black: #08090B
+Deep Charcoal: #111316
+Graphite: #191C20
+Border Gray: #2A2E33
+Champagne Gold: #E8B86A
+Warm Gold: #C98A32
+Primary Text: #F5F2EC
+Secondary Text: #A7A39C
+Muted Text: #6F6C67
+Success: #7FCB9A
+Warning: #E8B86A
+Weak / Error: #E87575

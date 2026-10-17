@@ -1,0 +1,16 @@
+{
+  "name": "studygenie-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix StudyGenie_Backend ci && npm --prefix StudyGenie_Backend/backend ci",
+    "dev:backend": "npm --prefix StudyGenie_Backend/backend run dev",
+    "start:backend": "npm --prefix StudyGenie_Backend/backend start",
+    "test": "node --experimental-test-module-mocks --test tests/*.test.mjs",
+    "check": "node --experimental-vm-modules scripts/check.cjs",
+    "dev:frontend": "node scripts/serve-frontend.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

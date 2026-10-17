@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Login — StudyGenie</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("studygenieTheme") || "dark";
+          document.documentElement.dataset.theme = t;
+        } catch (e) {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body class="auth-page">
+    <div class="bg-grid"></div>
+    <div class="glow glow-a"></div>
+    <div class="auth-wrap">
+      <a class="brand auth-brand" href="index.html"
+        ><span class="spark">✦</span> StudyGenie</a
+      >
+      <div class="auth-grid">
+        <div class="auth-showcase">
+          <div class="eyebrow">✦ STUDY SMARTER</div>
+          <h1>Your exam-ready<br /><span>study workspace.</span></h1>
+          <p>
+            Upload a lecture once. Generate notes first, then choose summaries,
+            mind maps, flashcards, quizzes and revision when you need them.
+          </p>
+          <div class="auth-orbit">
+            <div>📝 Notes</div>
+            <div>📋 Summary</div>
+            <div>🧠 Mind Map</div>
+            <div>⚡ Quiz</div>
+            <span>✦</span>
+          </div>
+        </div>
+        <form class="auth-card" id="loginForm">
+          <h2>Welcome back</h2>
+          <p>Log in to continue your StudyGenie journey.</p>
+          <label
+            >Email<input
+              id="identifier"
+              required
+              placeholder="Email" /></label
+          ><label
+            >Password<input
+              type="password"
+              id="password"
+              required
+              placeholder="Enter your password"
+          /></label>
+          <div class="form-row">
+            <label class="check"><input type="checkbox" /> Remember me</label
+            ><a href="#" id="forgotPassword">Forgot password?</a>
+          </div>
+          <button class="primary-btn full" type="submit">
+            Login <span>→</span>
+          </button>
+          <div class="divider"><span>or</span></div>
+          <button type="button" class="google-btn full" id="googleLogin">
+            <b>G</b> Continue with Google
+          </button>
+          <p class="auth-switch">
+            New to StudyGenie? <a href="signup.html">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="js/theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+  </body>
+</html>

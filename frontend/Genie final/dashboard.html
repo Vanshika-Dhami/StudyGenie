@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Dashboard — StudyGenie</title>
+    <link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/workspace.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("studygenieTheme") || "dark";
+          document.documentElement.dataset.theme = t;
+        } catch (e) {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+  </head>
+  <body class="dashboard-page">
+    <header class="dashboard-nav">
+      <a class="brand" href="index.html"
+        ><span class="spark">✦</span> StudyGenie</a
+      >
+      <div class="dash-actions">
+        <button type="button" class="icon-btn" id="dashTheme">☾</button
+        ><button type="button" class="profile-btn" id="profileBtn">
+          <span class="avatar" id="avatar">H</span
+          ><span id="profileName">Student</span>⌄
+        </button>
+        <div class="profile-menu" id="profileMenu">
+          <a href="profile.html">Profile</a><a href="settings.html">Settings</a
+          ><button type="button" id="logoutBtn">Logout</button>
+        </div>
+      </div>
+    </header>
+    <div class="dashboard-layout">
+      <aside class="sidebar">
+        <a class="side active" href="dashboard.html">⌂ <span>Dashboard</span></a
+        ><a class="side" href="#notes">▤ <span>Notes</span></a
+        ><a class="side" href="#summary">◫ <span>Summary</span></a
+        ><a class="side" href="#mindmap">⌘ <span>Mind Map</span></a
+        ><a class="side" href="#flashcards">🃏 <span>Flashcards</span></a
+        ><a class="side" href="#quiz">🧠 <span>Quiz</span></a
+        ><a class="side" href="#questions"
+          >🎯 <span>Important Questions</span></a
+        ><a class="side" href="#chat">💬 <span>Chat with Lecture</span></a
+        ><a class="side" href="settings.html">⚙ <span>Settings</span></a>
+      </aside>
+      <main class="dash-main">
+        <div class="welcome">
+          <div>
+            <div class="eyebrow">YOUR LEARNING SPACE</div>
+            <h1>
+              <span id="welcomeGreeting">Good morning</span>,
+              <span id="welcomeName">Student</span> 👋
+            </h1>
+            <p>Paste a lecture link and start with structured notes.</p>
+          </div>
+        </div>
+        <div class="lecture-picker"><label for="savedLectures">Your saved lectures</label><select id="savedLectures"><option value="">Choose a lecture…</option></select></div>
+        <section id="resumeStudying" class="resume-card" hidden aria-label="Resume Studying">
+          <div><div class="eyebrow">CONTINUE LEARNING</div><h2 id="resumeTitle">Resume Studying</h2><p id="resumeProgress" role="status"></p></div>
+          <a id="resumeLink" class="primary-btn" href="dashboard.html">Resume →</a>
+        </section>
+        <div id="workspaceLoading" class="workspace-loading" role="status"><span>Loading your study space…</span><div class="loading-skeleton" aria-hidden="true"><i></i><i></i><i></i></div></div>
+        <section id="upload" class="upload-card">
+          <div class="upload-copy">
+            <div class="eyebrow">START WITH YOUR LECTURE</div>
+            <h2>Paste your YouTube lecture link</h2>
+            <p>
+              StudyGenie processes the lecture and generates <b>Notes only</b>.
+              Other tools are generated separately when you click Generate.
+            </p>
+            <label class="language-picker" for="lectureLanguage">Notes language <select id="lectureLanguage"><option value="en">English</option><option value="hi">हिन्दी</option><option value="hinglish">Hinglish</option></select></label>
+            <div class="upload-actions">
+              <input
+                class="dashboard-input"
+                id="lectureUrl"
+                placeholder="https://youtube.com/watch?v=..."
+              /><button type="button" class="primary-btn" id="generateNotes">
+                Generate Notes →
+              </button>
+            </div>
+            <div id="processing" class="processing-box hidden">
+              <div>
+                <span>Processing lecture...</span
+                ><strong id="progressPct">0%</strong>
+              </div>
+              <div class="bar"><i id="progressBar"></i></div>
+            </div>
+          </div>
+          <div class="upload-visual"><div class="upload-ring">✦</div></div>
+        </section>
+        <section id="lectureWorkspace" class="lecture-workspace hidden">
+          <article class="lecture-header">
+            <div class="lecture-thumb">▶</div>
+            <div>
+              <span id="lectureStatus" class="status">Loading lecture…</span>
+              <h2 id="lectureTitle">Your lecture</h2>
+              <p id="lectureMeta"></p>
+            </div>
+          </article>
+          <div class="tool-grid">
+            <article id="notes" class="tool-card">
+              <b>📝</b>
+              <h3>Notes</h3>
+              <p>Structured exam-ready notes. Generated first for every new lecture.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="notes">
+                Generate
+              </button>
+            </article>
+            <article id="summary" class="tool-card">
+              <b>📋</b>
+              <h3>Summary</h3>
+              <p>Quick revision of the lecture. Generated only when you click Generate.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="summary">
+                Generate
+              </button>
+            </article>
+            <article id="mindmap" class="tool-card">
+              <b>🧠</b>
+              <h3>Mind Map</h3>
+              <p>Visual concept connections. Generated only when you click Generate.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="mindmap">
+                Generate
+              </button>
+            </article>
+            <article id="flashcards" class="tool-card">
+              <b>◈</b>
+              <h3>Flashcards</h3>
+              <p>Active recall practice. Generated only when you click Generate.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="flashcards">
+                Generate
+              </button>
+            </article>
+            <article id="quiz" class="tool-card">
+              <b>⚡</b>
+              <h3>Quiz</h3>
+              <p>Attempt and identify weak topics. Generated only when you click Generate.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="quiz">
+                Generate
+              </button>
+            </article>
+            <article id="questions" class="tool-card">
+              <b>🎯</b>
+              <h3>Important Questions</h3>
+              <p>Focus on high-value exam questions. Generated only when you click Generate.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="questions">
+                Generate
+              </button>
+            </article>
+            <article id="chat" class="tool-card">
+              <b>💬</b>
+              <h3>Chat with Lecture</h3>
+              <p>Ask questions using lecture context. AI runs only when you ask a question.</p>
+              <button type="button" class="primary-btn tool-generate" data-tool="chat">
+                Open Chat
+              </button>
+            </article>
+          </div>
+          <div id="generatedArea" class="generated-area" role="status" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+    <script src="js/theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/api.js"></script>
+    <script src="js/guard.js"></script>
+    <script src="js/workspace.js"></script><script src="js/dashboard.js"></script>
+  </body>
+</html>
